@@ -20,8 +20,8 @@ MATLAB scripts for analyzing radar measurement accuracy and waveform performance
 
 ## Quickstart
 ```matlab
-% From this folder
-run_demo
+# from the repo root (e.g., radar-analysis-tools)
+matlab -batch "run_demo"
 ```
 
 ## Example Results
