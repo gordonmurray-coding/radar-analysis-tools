@@ -1,27 +1,17 @@
 <p align="left">
   <a href="https://www.mathworks.com/products/matlab.html"><img src="https://img.shields.io/badge/MATLAB-R2022a%2B-blue" alt="MATLAB"></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-success" alt="License: MIT"></a>
-  <img src="https://img.shields.io/badge/maintained-yes-informational" alt="Maintained">
+  <img src="https://img.shields.io/github/last-commit/gordonmurray-coding/radar-analysis-tools" alt="GitHub last commit">
 </p>
-
-![MATLAB](https://img.shields.io/badge/MATLAB-R2022a+-orange)
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
-![GitHub last commit](https://img.shields.io/github/last-commit/<your-username>/<repo>)
 
 # Radar Analysis Tools
 
-MATLAB scripts for analyzing radar measurement accuracy and waveform performance.
-
-## Contents
-- `scripts/radar_residual_accuracy_dashboard.m` – Residual accuracy dashboard & figure export
-- `scripts/Radar_theoretical_max_accuracy_formulas.m`
-- `scripts/Radar_theoretical_max_accuracy_formulas_waveforms.m`
-- `scripts/SDA_theoretical_test.m`
+Reproducible MATLAB demo for radar observation QA (range & range-rate), using a single CSV input and saving portfolio-ready figures.
 
 ## Quickstart
 ```matlab
-# from the repo root (e.g., radar-analysis-tools)
-matlab -batch "run_demo"
+% From the repo root
+run_demo
 ```
 
 ## Example Results
