@@ -1,0 +1,20 @@
+# MATLAB
+*.asv
+*.mex*
+*.mat
+*.fig
+*.slxc
+*.mdl.autosave
+*.slx.autosave
+*.autosave
+*.log
+*.tmp
+.DS_Store
+
+# Results
+results/*
+!results/.gitkeep
+
+# Data (keep sample pointers but not big files)
+data/*
+!data/.gitkeep
